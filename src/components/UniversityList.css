@@ -1,0 +1,26 @@
+/* Default styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+
+    /* Adjust layout for smaller screens */
+    li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* Adjust layout for even smaller screens */
+    li {
+        font-size: 12px;
+    }
+}
